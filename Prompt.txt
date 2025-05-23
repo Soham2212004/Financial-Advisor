@@ -1,0 +1,68 @@
+💡 Project Overview: Financial Advisor Bot
+An AI-powered financial assistant web app that:
+
+Gives investment suggestions based on user input.
+Offers budgeting tips.
+Tracks financial goals, expenses, and income.
+Includes a chatbot interface for easy interaction. 🏗️ Project Architecture
+Frontend: React
+Dashboard with charts (expenses, savings, investments).
+Chatbot interface (text-based conversation).
+Forms for inputting income, expenses, and goals.
+Theme: clean, professional, mobile-friendly.
+Backend: Python (FastAPI or Flask)
+Endpoints for:
+Receiving user financial data
+Returning investment suggestions
+Returning budgeting advice
+AI/ML logic for personalized responses (can use LLMs or rules-based)
+Integration with SQLite for persistent storage
+Database: SQLite
+Stores user info, transactions, goals, chatbot conversation history, and recommendations.
+🔧 Features & Functionality
+
+User Input & Storage
+Income, monthly expenses, savings goals.
+Stored in SQLite (tables: users, transactions, goals).
+AI Recommendations
+Use OpenAI GPT, Gemini API, or custom rules/ML model.
+Examples:
+"You're spending 40% on rent. Consider lowering rent or increasing income."
+"Based on your age and savings, consider a low-risk mutual fund."
+Chatbot UI
+Simple chat interface (send/receive messages).
+Connected to backend via API.
+Bot replies using AI or rules.
+Charts and Analytics
+Use libraries like Chart.js or Recharts.
+Show:
+Monthly spending
+Savings vs. goals
+Budget breakdown 🧠 AI Logic Simple Start:
+Rule-based logic (Python): If income < expenses → suggest budgeting tips.
+OR Use OpenAI/Gemini API for:
+Interpreting financial data.
+Generating personalized suggestions. Example Prompt: "User has $5000 income, spends $3000 monthly, wants to save for a house. Give budgeting and investment tips." 🔌 Technology Stack Frontend:
+React
+Recharts / Chart.js
+Axios (for API calls) Backend:
+Python (Flask or FastAPI)
+SQLite (via SQLAlchemy or sqlite3)
+Optional: OpenAI or Gemini API integration Tools:
+Postman (test API)
+GitHub (version control) ✅ Development Steps
+Frontend
+Build input forms and chatbot interface.
+Create dashboard with charts.
+Connect to backend APIs using Axios.
+Backend
+Set up endpoints: /submit-data, /get-advice, /chat.
+Connect to SQLite, define tables for user data.
+Implement AI logic (OpenAI or custom).
+Test API responses.
+AI Integration
+Choose model (OpenAI/Gemini or simple rule-based).
+Process input and return meaningful financial suggestions.
+Testing
+Manual test cases for all features.
+Check edge cases (zero income, very high expenses).
