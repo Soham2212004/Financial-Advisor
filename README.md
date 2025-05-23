@@ -4,10 +4,6 @@
 
 A comprehensive financial advisory web application that provides personalized investment suggestions, budgeting tips, goal tracking, and intelligent chatbot assistance. This project demonstrates the power of AI-assisted development and prompt engineering.
 
-## 🚀 **Live Demo**
-
-[Add your deployed app link here]
-
 ## ✨ **Features**
 
 - 📊 **Interactive Dashboard** with real-time financial analytics
@@ -43,24 +39,6 @@ This entire application was built in **just 1 hour** using AI tools and prompt e
 
 The project showcases how effective prompt engineering can accelerate development and create production-ready applications.
 
-## 📁 **Project Structure**
-
-```
-Financial-Advisor/
-├── Frontend/                 # React application
-│   ├── src/
-│   │   ├── components/      # React components
-│   │   ├── pages/          # Application pages
-│   │   └── utils/          # Utility functions
-│   └── package.json
-├── Backend/                 # FastAPI server
-│   ├── app.py              # Main backend application
-│   └── financial_advisor.db # SQLite database
-├── Prompts/                # AI prompts used for development
-│   ├── frontend-prompts.md
-│   └── backend-prompts.md
-└── README.md
-```
 
 ## 🚀 **Quick Start**
 
@@ -73,7 +51,7 @@ Financial-Advisor/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Financial-Advisor.git
+   git clone https://github.com/Soham2212004/Financial-Advisor.git
    cd Financial-Advisor/Backend
    ```
 
@@ -206,7 +184,6 @@ For questions about:
 - **Bolt.new** - For rapid frontend development
 - **Claude.ai** - For comprehensive backend generation
 - **Google Gemini** - For intelligent AI conversations
-- **Open Source Community** - For amazing tools and libraries
 
 ## ⭐ **Show Your Support**
 
